@@ -1,0 +1,138 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+
+}
+h1{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 17px;
+  color: initial;
+}
+h2{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 17px;
+  color: hsl(14, 45%, 36%)
+}
+h3{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  color: hsl(332, 51%, 32%);
+  
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.border{
+    border: 3px solid aliceblue;
+    margin: 250px;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    
+}
+.wrappe{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bold{
+  font-weight: bold;
+  color:  hsl(24, 5%, 18%);
+
+  
+}
+.list-style {
+				
+				list-style-position: outside;
+				padding-left: 20px;
+        margin-bottom: 10px;
+        
+        
+}
+
+.paragraphe{
+  padding-left: 15px;
+}
+ol > li::marker,
+ul > li::marker {
+				font-weight: bold;
+				color: hsl(14, 45%, 36%);
+}
+
+.colories{
+  color: hsl(14, 45%, 36%)
+}
+.article1{
+  background-color: hsl(330, 100%, 98%);
+  border: hsl(322.5deg 100% 98.43%);
+  border-radius: 15px;
+  padding: 10px;
+} 
+
+         
+
+
+@media (max-width: 790px) {
+    body {
+        font-size: 14px;  
+        margin: 0;  
+    }
+
+    h1 {
+        font-size: 24px;  
+        padding-left: 10px;
+    }
+
+    h2 {
+        font-size: 18px;  
+        padding-left: 10px;
+    }
+
+    h3 {
+        font-size: 16px;  
+    }
+
+    .border {
+        margin: 10px;
+        padding: 20px;  
+    }
+
+    .paragraphe {
+        padding-left: 10px;  
+    }
+
+    img {
+        width: 90%; 
+        height: auto;
+    }
+
+    .article1 {
+        padding: 5px; 
+    }
+
+    .wrappe {
+        flex-direction: column;  
+        justify-content: flex-start;
+    }
+
+    .colories {
+        font-size: 12px;  
+    }
+}
